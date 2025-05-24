@@ -9,6 +9,7 @@ public class SimpleStack {
         stack = new int[capacity];
         top = -1;
     }
+    
 
     // Push method with exception handling
     public void push(int value) throws Exception {
